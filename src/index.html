@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simulador de IMC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>
+        <img src="https://img.icons8.com/ios-filled/50/calculator.png" 
+             alt="Ícone Calculadora" 
+             style="width: 24px; vertical-align: middle; margin-right: 8px;">
+        Simulador de IMC
+      </h1>
+      <input type="number" id="peso" placeholder="Peso (kg)" />
+      <input type="number" id="altura" placeholder="Altura (m)" />
+      <button onclick="calcularIMC()">Calcular IMC</button>
+      <div id="resultado"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
